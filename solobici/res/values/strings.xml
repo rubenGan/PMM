@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">solobici</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tituloAplicacion">Solobici Didáctico</string>
+    <string name="Jugar">JUGAR</string>
+    <string name="Configurar">Configurar</string>
+    <string name="Acercade">Acerca de</string>
+    <string name="Salir">Salir</string>
+    <string name="TextoAcercaDe">Proyecto Android 2.1 para PMM, IES Serpis 2012, Hecho por Rubén Vañó Gómez </string>
+
+</resources>
