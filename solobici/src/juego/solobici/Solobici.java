@@ -15,6 +15,7 @@ public class Solobici extends Activity {
 	private Button bAcercaDe;
 	private Button bJuego;
 	private Button bPreferencias;
+	private Button bOtenerPreferencias;
 	private Button bSalir;
 	
     public void onCreate(Bundle savedInstanceState) {
@@ -38,7 +39,11 @@ public class Solobici extends Activity {
         		lanzarJuego();
         	}
         });
-    }
+        bPreferencias =(Button)findViewById(R.id.Boton02);
+        bOtenerPreferencias =(Button)findViewById(R.id.MnuOpc1);
+        
+      }
+    
     
     public boolean onCreateOptionsMenu(Menu menu){
     	MenuInflater inflater = getMenuInflater();
