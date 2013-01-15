@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/LblMensaje1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="el mayor es: " />
+    
+    <EditText android:id="@+id/LblMensaje2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="el menor es: "
+        android:layout_below="@id/LblMensaje1" 
+        android:layout_alignParentRight="true"/>
+    
+    <EditText android:id="@+id/LblMensaje3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="la media es: "
+        android:layout_below="@id/LblMensaje2" 
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EjercicioExamen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="enviar">Enviar</string>
+    <string name="borrar">Borrar</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="edad">Edad</string>
+    <string-array name="edad_array">
+        <item >1-15</item>
+        <item >15-30</item>
+        <item >30-65</item>
+        <item >+65</item>
+    </string-array>
+
+</resources>

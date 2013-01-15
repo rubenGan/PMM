@@ -1,0 +1,21 @@
+package com.example.figurasgeometricas;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Paint.Style;
+import android.view.View;
+
+public class Dibujar extends View{
+	public Dibujar(Context contexto){
+		super(contexto);
+	}
+	protected void onDraw(Canvas canvas){
+	 Paint pincel = new Paint();
+	   pincel.setColor(Color.BLUE);
+	   pincel.setStrokeWidth(15);
+	   pincel.setStyle(Style.FILL);
+	   canvas.drawCircle(10, 10, 10, pincel);
+	}
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <EditText android:id="@+id/editText1" android:text="" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_width="fill_parent"></EditText>
+
+        <TextView android:layout_below="@+id/editText1" android:text="Nombre:" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_alignLeft="@+id/editText1" android:layout_marginTop="10dp" android:textSize="20dp"></TextView>
+
+        <EditText android:id="@+id/editText2" android:text="" android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/textView1" android:layout_width="180dp"></EditText>
+
+        <TextView android:text="Edad:" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_below="@+id/editText2" android:layout_alignLeft="@+id/editText2" android:layout_marginTop="10dp" android:textSize="20dp"></TextView>
+
+        <Spinner android:layout_width="wrap_content" android:id="@+id/spinner1" android:layout_height="wrap_content" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/textView2" android:prompt="@string/edad"></Spinner>
+
+        <TextView android:layout_below="@+id/spinner1" android:text="Estudiante: " android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_alignLeft="@+id/spinner1" android:layout_marginTop="10dp" android:textSize="20dp"></TextView>
+
+    <RadioGroup android:layout_width="wrap_content" android:layout_below="@+id/textView3" android:id="@+id/radioGroup1" android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView3" android:orientation="horizontal">
+
+            <RadioButton android:textSize="20dp" android:layout_width="wrap_content" android:id="@+id/radio0" android:layout_height="wrap_content" android:checked="true" android:text="@string/mujer" android:layout_marginTop="10dp"></RadioButton>
+            <RadioButton android:textSize="20dp" android:layout_width="wrap_content" android:id="@+id/radio1" android:layout_height="wrap_content" android:text="@string/hombre" android:layout_marginLeft="20dp" android:layout_marginTop="10dp"></RadioButton>
+    </RadioGroup>
+
+        <CheckBox android:id="@+id/checkBox1" android:layout_toRightOf="@+id/textView3" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:layout_alignTop="@+id/textView3" android:layout_alignBottom="@+id/textView3" android:checked="false"></CheckBox>
+
+        <Button android:layout_toRightOf="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button2" android:layout_alignTop="@+id/button1" android:layout_alignBottom="@+id/button1" android:text="@string/borrar" android:textColor="@color/green"></Button>
+
+        <Button android:layout_width="wrap_content" android:layout_marginTop="40dp" android:layout_marginLeft="90dp" android:textColor="@color/blue" android:layout_height="wrap_content" android:text="@string/enviar" android:id="@+id/button1" android:layout_alignParentBottom="true" android:layout_marginBottom="20dp"></Button>
+        
+    </RelativeLayout>

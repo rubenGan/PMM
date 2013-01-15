@@ -1,0 +1,38 @@
+package com.example.figurasgeometricas;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Paint.Style;
+import android.view.View;
+
+public class Dibujar extends View{
+	private String tipo;
+	
+	public Dibujar(Context contexto){
+		super(contexto);
+	}
+	public void setTipo(String t){
+		tipo=t;
+		
+	}
+	public String getTipo(){
+		return tipo;
+	}
+	
+	public void onDraw(Canvas canv){
+	 Paint pincel = new Paint();
+	   pincel.setColor(Color.BLUE);
+	   pincel.setStrokeWidth(15);
+	   pincel.setStyle(Style.FILL);
+	   if(getTipo()=="circulo")
+	   canv.drawCircle(10, 10, 10, pincel);
+	   
+	   else if(getTipo()=="rectangulo")
+		   canv.drawRect(10,10,10,10, pincel);
+	   
+	   
+
+	}
+}

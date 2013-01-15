@@ -1,0 +1,35 @@
+<RelativeLayout android:id="@+id/container" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<TextView android:id="@+id/LblEtiqueta" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/escribe" 
+	    android:background="#AA44FF" 
+	    android:typeface="monospace"/>
+	    
+	<EditText android:id="@+id/TxtTexto" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@id/LblEtiqueta" />
+	    
+	<Button android:id="@+id/BtnNegrita"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@id/TxtTexto" 
+	    android:layout_alignParentRight="true" 
+	    android:text="@string/negrita" />
+	    
+	<Button android:id="@+id/BtnSetText"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@id/TxtTexto" 
+	    android:layout_toLeftOf="@id/BtnNegrita" 
+	    android:text="@string/settext" />
+	  
+
+		
+</RelativeLayout>

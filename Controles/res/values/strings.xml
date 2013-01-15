@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Trabajo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="cBasicos">Componentes Básicos</string>
+    <string name="campoTexto">Campos de Texto</string>
+    <string name="checkBox">CheckBox</string>
+    <string name="radioButton">RadioButton</string>
+    <string name="negrita">Negrita</string>
+    <string name="settext">SetText</string>
+    <string name="escribe">Escribe tu texto:</string>
+    <string name="RicosHelados">¡Ricos Helados!</string>
+    <string name="Fresa">Fresa</string>
+    <string name="Mango">Mango</string>
+    <string name="Limon">Limón</string>
+    <string name="ecivil"> Indica tu estado civil</string>
+    <string name="soltero">Soltero/a</string>
+    <string name="casado">Casado/a</string>
+    <string name="otro">Otro</string>
+    <string name="cmbBox">Spinner</string>
+    <string name="lista">Listado</string>
+    <string name="cComplejos">Componenetes Avanzados</string>
+    <string name="cmbSelect">Selecciona una opción:</string>
+    <string name="acercaDe">Trabajo para la asignatura PMM, curso 2012/13 en el IES Serpis. Hecho por Rubén Vañó Gómez</string>
+
+</resources>
