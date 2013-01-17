@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="19" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1155" x="82" y="369">
 <fastViewData fastViewLocation="1024"/>
@@ -16,15 +16,15 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -35,22 +35,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="/home/ruben/PMM/MainActivity/src/com/example/figurasgeometricas/MainActivity.java" title="MainActivity.java" tooltip="MainActivity/src/com/example/figurasgeometricas/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainActivity/src/com/example/figurasgeometricas/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="199" selectionOffset="604" selectionTopPixel="5"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Circulo.java" partName="Circulo.java" path="/home/ruben/PMM/MainActivity/src/com/example/figurasgeometricas/Circulo.java" title="Circulo.java" tooltip="MainActivity/src/com/example/figurasgeometricas/Circulo.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Circulo.java" partName="Circulo.java" path="/home/ruben/PMM/MainActivity/src/com/example/figurasgeometricas/Circulo.java" title="Circulo.java" tooltip="MainActivity/src/com/example/figurasgeometricas/Circulo.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainActivity/src/com/example/figurasgeometricas/Circulo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1084" selectionTopPixel="272"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="circulo.xml" partName="circulo.xml" path="/home/ruben/PMM/MainActivity/res/layout/circulo.xml" title="circulo.xml" tooltip="MainActivity/res/layout/circulo.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainActivity/res/layout/circulo.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1842" selectionTopPixel="396"/>
 </editor>
 </editors>
 <views>
@@ -63,9 +54,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (29 items)"/>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (22 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="197" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -125,7 +115,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.CommonXmlEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -319,158 +309,36 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainActivity/src/com/example/figurasgeometricas/Rectangulo.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainActivity/src/com/example/figurasgeometricas/Circulo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainActivity/src/com/example/figurasgeometricas/Dibujar.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MainActivity/res/layout/circulo.xml"/>
 </editors>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1333" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1341" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1702" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1702" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1454" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1122" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
+<item historyLabel="Rectangulo.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="474" y="0"/>
+<item historyLabel="Circulo.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="343" y="0"/>
+<item historyLabel="Circulo.java" index="1">
+<position info="not_deleted" x="1333" y="0"/>
 </item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="474" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="661" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="589" y="5"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="765" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1119" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="765" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1338" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
+<item historyLabel="Circulo.java" index="1">
 <position/>
 </item>
-<item historyLabel="Dibujar.java" index="1">
+<item historyLabel="Circulo.java" index="1">
+<position info="not_deleted" x="1351" y="0"/>
+</item>
+<item historyLabel="Circulo.java" index="1">
 <position/>
 </item>
-<item historyLabel="Circulo.java" index="0">
+<item historyLabel="Circulo.java" index="1">
 <position/>
 </item>
-<item historyLabel="Dibujar.java" index="1">
-<position/>
+<item historyLabel="Circulo.java" index="1">
+<position info="not_deleted" x="1036" y="0"/>
 </item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
+<item active="true" historyLabel="Circulo.java" index="1">
+<position info="not_deleted" x="1721" y="0"/>
 </item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="467" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="467" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="629" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="764" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="764" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="438" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="617" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="203" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="504" y="0"/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="203" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="203" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Dibujar.java" index="1">
-<position info="not_deleted" x="442" y="312"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1077" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1698" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1698" y="0"/>
-</item>
-<item historyLabel="Circulo.java" index="0">
-<position info="not_deleted" x="1084" y="0"/>
-</item>
-<item active="true" historyLabel="circulo.xml" index="2"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -492,6 +360,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Circulo.java" tooltip="MainActivity/src/com/example/figurasgeometricas/Circulo.java">
+<persistable path="/MainActivity/src/com/example/figurasgeometricas/Circulo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rectangulo.java" tooltip="MainActivity/src/com/example/figurasgeometricas/Rectangulo.java">
+<persistable path="/MainActivity/src/com/example/figurasgeometricas/Rectangulo.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="circulo.xml" tooltip="MainActivity/res/layout/circulo.xml">
 <persistable path="/MainActivity/res/layout/circulo.xml"/>
 </file>
@@ -509,9 +383,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="MainActivity/res/values/strings.xml">
 <persistable path="/MainActivity/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Circulo.java" tooltip="MainActivity/src/com/example/figurasgeometricas/Circulo.java">
-<persistable path="/MainActivity/src/com/example/figurasgeometricas/Circulo.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="MainActivity/src/com/example/figurasgeometricas/MainActivity.java">
 <persistable path="/MainActivity/src/com/example/figurasgeometricas/MainActivity.java"/>
@@ -533,9 +404,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Controles/res/values/strings.xml">
 <persistable path="/Controles/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Titular.java" tooltip="Controles/src/com/ruben/trabajo/Titular.java">
-<persistable path="/Controles/src/com/ruben/trabajo/Titular.java"/>
 </file>
 </mruList>
 </workbench>

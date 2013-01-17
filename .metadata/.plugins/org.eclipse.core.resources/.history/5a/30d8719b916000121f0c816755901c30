@@ -31,11 +31,11 @@ public class Circulo extends Activity{
         
        radio = (EditText)findViewById(R.id.radioCirculo);//introduce el radio.
             
-    		   pincel = new Paint();
+    		 pincel = new Paint();
     		   pincel.setColor(Color.BLUE);
     		   pincel.setStrokeWidth(15);
     		   pincel.setStyle(Style.FILL);
-    		   
+    		   setContentView(R.layout.circulo);
       
        final Button  btnCalcularCirc = (Button)findViewById(R.id.btnCalcularCirc);
        btnCalcularCirc.setOnClickListener(new View.OnClickListener() { 
@@ -44,35 +44,23 @@ public class Circulo extends Activity{
 			{
     		  
     			double resultado;
-    			Canvas canvas=new Canvas();
-    			
-    			
+    		
     			
     			r = Double.parseDouble(radio.getText().toString());
     			
     			resultado = Math.PI*(r*r);
-    			
-    			onDraw(canvas);
-    			
+    		
     			area.setText("El área del círculo es: "+String.valueOf(resultado));
     	  
        }
     	
        });
-       
-   
      
-	}
-	public class EjemploView extends View{
-		public EjemploView(Context ct){
-			super(ct);
-		}
 	}
 	
 		public void onDraw(Canvas canvas){
 			canvas.drawColor(Color.BLUE);
 			canvas.drawCircle(50,80,(float) r,pincel);
-			setContentView(new EjemploView(this));
 			
 		}
 	}

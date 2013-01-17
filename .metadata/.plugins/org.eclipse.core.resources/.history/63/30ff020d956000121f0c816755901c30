@@ -63,16 +63,11 @@ public class Circulo extends Activity{
    
      
 	}
-	public class EjemploView extends View{
-		public EjemploView(Context ct){
-			super(ct);
-		}
-	}
 	
 		public void onDraw(Canvas canvas){
 			canvas.drawColor(Color.BLUE);
 			canvas.drawCircle(50,80,(float) r,pincel);
-			setContentView(new EjemploView(this));
+			setContentView(R.layout.circulo);
 			
 		}
 	}
