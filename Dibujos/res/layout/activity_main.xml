@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <Spinner
+        android:id="@+id/spinnerFiguras"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/CalcularAreaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Calcular el area"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/labelCuadrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerFiguras"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Cuadrado:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/botonCalcular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Dibujar el area" />
+
+    <TextView
+        android:id="@+id/labelCirculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelCuadrado"
+        android:layout_alignBottom="@+id/labelCuadrado"
+        android:layout_centerHorizontal="true"
+        android:text="Circulo:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editTextCuadrado"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelCuadrado2"
+        android:layout_alignBottom="@+id/labelCuadrado2"
+        android:layout_toRightOf="@+id/labelCirculo"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/labelCuadrado2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/labelCirculo"
+        android:layout_below="@+id/labelCuadrado"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="22dp"
+        android:text="Escribir el lado:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editTextCirculo"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextCuadrado"
+        android:layout_alignBottom="@+id/editTextCuadrado"
+        android:layout_alignLeft="@+id/editTextCuadrado"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/labelCirculo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelCuadrado2"
+        android:layout_alignBottom="@+id/labelCuadrado2"
+        android:layout_alignLeft="@+id/labelCuadrado2"
+        android:text="Escribir radio: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</RelativeLayout>
