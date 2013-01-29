@@ -1,0 +1,67 @@
+package com.example.ejemplobd;
+
+import android.app.Activity;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.TextView;
+
+public class EjemploBD extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_ejemplo_bd);
+		String  nombreCli;
+		String telefonoCli;
+		
+		ClientesSQLiteHelper cliBDh = new ClientesSQLiteHelper(this,"DBClientes",null,1);
+		TextView texto=(TextView)findViewById(R.id.textView2);
+		
+		SQLiteDatabase bd =cliBDh.getWritableDatabase();
+		
+		if(bd!=null){
+			for (int cont=1;cont<=3;cont++){
+				int codigo=cont;
+				String nombre="Cliente "+cont;
+				String telefono=cont+" XXXXXXX";
+				
+				
+				bd.execSQL("INSERT INTO Clientes(codigo,nombre,telefono) VALUES("+codigo+",'"+nombre+"','"+telefono+"')");
+			}
+					
+			bd.close();
+			
+			bd= cliBDh.getReadableDatabase();
+			//String[]campos=new String[]{"nombre","telefono"};
+			String[] args=new String[]{"Cliente1"};
+			//Cursor c=bd.query("Clientes",campos,"nombre=?",args,null,null,null);
+			Cursor c=bd.rawQuery("SELECT nombre,telefono FROM Clientes WHERE nombre=?",args);
+			if(c.moveToFirst()){
+				do{
+					 nombreCli=c.getString(c.getColumnIndex("nombre"));
+					 telefonoCli=c.getString(c.getColumnIndex("telefono"));
+					
+					
+					
+				}while(c.moveToNext());
+				
+				texto.setText("\n"+nombreCli+"-->"+telefonoCli+"\n");
+
+				bd.close();
+
+			}
+			
+		}
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_ejemplo_bd, menu);
+		return true;
+	}
+
+}

@@ -1216,3 +1216,12 @@ Java Model Exception: Java Model Status [Timed out while retrieving the attached
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1012 2013-01-25 13:23:22.735
 !MESSAGE Timed out while retrieving the attached javadoc for SQLiteClosable [in SQLiteClosable.class [in android.database.sqlite [in /home/ruben/.eclipse/org.eclipse.platform_3.7.0_155965261/plugins/android-sdk-linux/platforms/android-7/android.jar]]] 
+!SESSION 2013-01-29 11:24:27.029 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /home/ruben/PMM
+
+!ENTRY org.eclipse.ui 4 4 2013-01-29 11:24:39.158
+!MESSAGE Invalid preference page path: XML Syntax

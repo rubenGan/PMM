@@ -10,5 +10,8 @@
 <fullyQualifiedTypeName name="android.graphics.Paint.Style"/>
 <fullyQualifiedTypeName name="android.util.AttributeSet"/>
 <fullyQualifiedTypeName name="com.example.figurasgeometricas.R.layout"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="com.example.ejemplobd.R.id"/>
 <fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
 </qualifiedTypeNameHistroy>
