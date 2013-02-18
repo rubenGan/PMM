@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android1:id="@+id/listView"
+        android1:layout_width="fill_parent"
+        android1:layout_height="368dp" >
+    </ListView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android1:id="@+id/textRecoge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="no hay" />
+        
+        </LinearLayout>
+
+</LinearLayout>
